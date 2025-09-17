@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registaration Form</title>
+</head>
+<body>
+   <form name="form1" action="http://www.lokeshForm.com" method="post">
+     <Table border="0px" align="center" bgcolor="eef1ff" cellspacing="3px" cellpadding="5px">
+        <caption><h3> Registaration Form</h3></caption>
+        <tr >
+            <td>
+                <label for="firstNAme" >First Name</label>
+           </td>
+            <td>
+                <label for="lastNAme">Last Name</label>
+           </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="firstNAme" name="firstName" required>
+            </td>
+            <td>
+                <input type="text" id="lastNAme" name="lastName" required>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="birthday"> Birthday</label>
+            </td>
+            <td>
+                Gender
+           </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="date" id="birthday" name="birthday" required>
+            </td>
+            <td>
+                <input type="radio" id="male" name="gender" value="male" required>
+                Male
+                <input type="radio" id="Female" name="gender" value="female" >
+               FeMale
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="id5">Email</label>
+            </td>
+            <td>
+                <label for="id6">Phone Number</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="email" name="email" id="id5" required placeholder="Abc01@gmail.com">
+            </td>
+            <td>
+                <input type="tel" name="phoneNumber" id="id6" placeholder="+91xxxxxxxxx">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="subject">Subject</label>
+            </td>
+        </tr>
+        <tr >
+            <td colspan="2"  >
+                
+                <select id="subject" name="subject" style="width: 100%" required>
+                    <option value="Choose Options">Choose Options</option>
+                    <option value="Telugu">Telugu</option>
+                    <option value="Hindi">Hindi</option>
+                    <option value="MAths">Maths</option>
+                    <option value="Science">Science</option>
+                    <option value="Social">Social</option>
+                    <option value="None">None</option>
+
+                </select>
+                
+            </td>
+        </tr>
+        <tr >
+            <td >
+                    <input type="submit">
+            </td> 
+        </tr>
+
+     </Table>
+   </form>
+</body>
+</html>
